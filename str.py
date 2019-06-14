@@ -123,7 +123,7 @@ print('-------' + s.strip() + '-------')
 print('-------' + s.rstrip() + '-------')
 print('-------' + s.lstrip() + '-------')
 
-s = '<><abc><><abc><>'
+s = '<abc>click<abc>'
 print('-------' + s.strip('<>') + '-------')
 print('-------' + s.strip('><') + '-------')
 
